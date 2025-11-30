@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Normal state -->
+    <item android:state_pressed="false" android:state_enabled="true">
+        <layer-list>
+            <!-- Shadow layer -->
+            <item android:top="2dp" android:left="2dp" android:right="2dp" android:bottom="6dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#20000000"/>
+                    <corners android:radius="12dp"/>
+                </shape>
+            </item>
+            <!-- Button layer -->
+            <item android:top="0dp" android:left="0dp" android:right="4dp" android:bottom="4dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/primary"/>
+                    <corners android:radius="12dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    
+    <!-- Pressed state -->
+    <item android:state_pressed="true" android:state_enabled="true">
+        <layer-list>
+            <!-- Reduced shadow when pressed -->
+            <item android:top="1dp" android:left="1dp" android:right="1dp" android:bottom="3dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="#15000000"/>
+                    <corners android:radius="12dp"/>
+                </shape>
+            </item>
+            <!-- Button layer -->
+            <item android:top="0dp" android:left="0dp" android:right="2dp" android:bottom="2dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/secondary"/>
+                    <corners android:radius="12dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    
+    <!-- Disabled state -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/text_secondary"/>
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+
+</selector>

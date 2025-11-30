@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192" height="192" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <!-- Red rounded border background -->
+  <rect x="0" y="0" width="192" height="192" rx="24" ry="24" fill="#E53E3E"/>
+  
+  <!-- White inner background -->
+  <rect x="12" y="12" width="168" height="168" rx="16" ry="16" fill="#FFFFFF"/>
+  
+  <!-- Large "A" -->
+  <g fill="#1E3A8A">
+    <!-- A main strokes -->
+    <polygon points="48,140 68,80 88,140" stroke="#1E3A8A" stroke-width="2" fill="none"/>
+    <polygon points="48,140 38,140 68,80 78,80 108,140 98,140"/>
+    <!-- A crossbar -->
+    <rect x="52" y="115" width="32" height="8"/>
+  </g>
+  
+  <!-- "TC" letters -->
+  <g fill="#1E3A8A" font-family="Arial, sans-serif" font-weight="bold">
+    <!-- T -->
+    <rect x="115" y="80" width="45" height="8"/>
+    <rect x="133" y="80" width="8" height="60"/>
+    
+    <!-- C -->
+    <path d="M170 80 Q185 80 185 95 Q185 110 185 125 Q185 140 170 140 L165 140 Q150 140 150 125 L150 95 Q150 80 165 80 Z" stroke="#1E3A8A" stroke-width="8" fill="none"/>
+  </g>
+  
+  <!-- "Tagum City" text -->
+  <text x="48" y="165" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#1E3A8A">Tagum City</text>
+  
+  <!-- Red circle with "1" -->
+  <circle cx="170" cy="105" r="8" fill="#E53E3E"/>
+  <text x="170" y="110" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+  
+  <!-- "995" numbers -->
+  <text x="170" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1E3A8A" text-anchor="middle">9</text>
+  <text x="170" y="145" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1E3A8A" text-anchor="middle">9</text>
+  <text x="170" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1E3A8A" text-anchor="middle">5</text>
+</svg>

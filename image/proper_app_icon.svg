@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#4A90E2" stroke="#2E5C8A" stroke-width="8"/>
+  
+  <!-- Book shape -->
+  <rect x="140" y="120" width="232" height="280" rx="12" ry="12" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2"/>
+  
+  <!-- Book spine -->
+  <rect x="140" y="120" width="20" height="280" rx="12" ry="12" fill="#E0E0E0"/>
+  
+  <!-- Lines on the book (representing text) -->
+  <line x1="180" y1="180" x2="340" y2="180" stroke="#CCCCCC" stroke-width="3"/>
+  <line x1="180" y1="210" x2="320" y2="210" stroke="#CCCCCC" stroke-width="3"/>
+  <line x1="180" y1="240" x2="330" y2="240" stroke="#CCCCCC" stroke-width="3"/>
+  <line x1="180" y1="270" x2="310" y2="270" stroke="#CCCCCC" stroke-width="3"/>
+  <line x1="180" y1="300" x2="340" y2="300" stroke="#CCCCCC" stroke-width="3"/>
+  <line x1="180" y1="330" x2="325" y2="330" stroke="#CCCCCC" stroke-width="3"/>
+  
+  <!-- Pen/pencil icon -->
+  <g transform="translate(280, 140) rotate(45)">
+    <rect x="0" y="0" width="8" height="60" fill="#FFD700"/>
+    <rect x="0" y="0" width="8" height="15" fill="#FF6B6B"/>
+    <polygon points="0,60 4,70 8,60" fill="#333333"/>
+  </g>
+  
+  <!-- Heart symbol (representing friendship/memories) -->
+  <g transform="translate(200, 150)">
+    <path d="M12,21.35l-1.45-1.32C5.4,15.36,2,12.28,2,8.5 C2,5.42,4.42,3,7.5,3c1.74,0,3.41,0.81,4.5,2.09C13.09,3.81,14.76,3,16.5,3 C19.58,3,22,5.42,22,8.5c0,3.78-3.4,6.86-8.55,11.54L12,21.35z" fill="#FF6B6B" transform="scale(0.8)"/>
+  </g>
+  
+  <!-- Title text -->
+  <text x="256" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF">SLAM BOOK</text>
+</svg>
